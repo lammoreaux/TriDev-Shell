@@ -1,0 +1,24 @@
+//Naming rules
+
+1) if something does something to a system use - before the word. e.g. device -shutdown
+2) if something is a type of command use - before the word. e.g. scaffold -web
+
+
+Version rules
+!ALWAYS CHANGE VERSION NUMBER IN the package.json and other files!
+Document everything as well
+
+1) If new command added x.y.z -> x.y+1.z
+2) If bug fix x.y.z -> x.y.z+1
+3) If new feature added x.y.z -> x+1.y.z
+
+New version release rules
+1)Only release when you have a new feature or 2 commands
+    (version x.y.z => x+1.y.z or x.y+2.z)
+2)Always update the devlog and the version
+
+
+Top js docs rules 
+1)The version means when it was last updated in wich version
+2)The description means what it does
+3)The commands means what commands are available
