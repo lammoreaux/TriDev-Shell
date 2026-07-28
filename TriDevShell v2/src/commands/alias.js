@@ -135,7 +135,7 @@ function showAliasHelp() {
     console.log(chalk.green('  alias <name>            ') + chalk.gray(' : Show what a name is aliased to.'));
 };
 /**
- * List's out all the aliases from the config files
+ * Lists out all the aliases from the config files
  * @param {AliasObject} aliases 
  * @returns {void}
  */
